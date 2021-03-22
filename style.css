@@ -1,0 +1,129 @@
+﻿body{
+    height: 403px;
+    width: 1219px;
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: auto;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #007765;
+}
+header{
+    width: 1100px;
+    background-color: #007765; 
+    vertical-align: middle;
+    margin: auto;
+    padding: 20px 60px; 
+    position: fixed;
+}
+ul{
+    margin: auto;
+    float: right;
+}
+ul>li {
+    display: inline-block;
+}
+ul li + li:before{
+    content:"|";
+    color: #EEEEEE;
+    letter-spacing:  5px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #EEEEEE;
+}
+a:hover {
+    color: #fff;
+    background: #cec5c936;
+}
+.container{
+    width:  1219px;
+    margin: 0 auto;
+}
+.block{
+    background: url('pic/image-8.png');
+    height: 403px;
+    width: 1219px; 
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing:  2px;
+    background-size: cover;
+    background-position: center center;
+}
+.block>h1{
+    color: #FFFFFF;
+}
+.Problem>h1{
+    color: #007765;
+    text-align: center;
+}
+.Problem{
+    vertical-align: middle;
+    margin: auto;
+    padding: 30px 109px;
+}
+.quote{
+    background: url('pic/image-1.png');
+    height: 483px;
+    width: 1219px;
+    color: #FFFFFF;
+    font-size: 34pt;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center center;
+}
+.Introducing{
+    vertical-align: middle;
+    margin: auto;
+    padding: 20px 109px;
+    clear: both;
+}
+.Introducing>h1{
+    color: #007765;
+    text-align: center;
+}
+.right{
+    margin: 15px;
+    float: left;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+}
+figure img {
+    height: 180px;
+  }
+figure>figcaption{
+    color: #007765;
+}
+footer{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 40px;
+    text-align:center;
+    vertical-align: middle;
+    font-size: small;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    font-weight: lighter;
+    padding: top -28px;
+    
+
+}
